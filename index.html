@@ -3,30 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalizer.css" />
+    <script
+      src="https://kit.fontawesome.com/9801a28f0f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Calculatrice</title>
   </head>
   <body>
     <!--Changement de fond-->
-    <div>
-      <div>
-        <!--Bonton pour changer de fond (Clair ou foncer)-->
-        <i class="fa-solid fa-sun"></i>
-        <i class="fa-solid fa-moon"></i>
-      </div>
-      <p>Switch to dark or Light</p>
+    <div id="darkLight">
+      <!--Bonton pour changer de fond (Clair ou foncer)-->
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
     </div>
-    <div>
+    <div id="leCalcul">
       <!-- Opé + resultat afficher-->
-      <div>Opération</div>
-      <div>résultat</div>
+      <div id="operation">10+50+67-4</div>
+      <div id="resultat">456</div>
     </div>
     <div>
       <!-- Toutes les touches  -->
-      <div>
+      <div id="backUp">
         <!-- 2 icones -->
 
-        <i class="fa-regular fa-clock"></i>
-        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        <i class="fa-regular fa-clock history"></i>
+        <i class="fa-solid fa-up-right-and-down-left-from-center agrandir"></i>
       </div>
       <div>
         <!-- Liste bouton -->

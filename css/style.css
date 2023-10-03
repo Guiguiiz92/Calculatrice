@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  background-image: url(/image/DarkSnk.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  margin: 10px;
+}
+#darkLight {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.fa-sun,
+.fa-moon {
+  padding: 5px;
+  border-radius: 25%;
+  background-color: white;
+  font-size: 20px;
+}
+
+#leCalcul {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px;
+  border-radius: 5%;
+}
+#operation,
+#resultat {
+  font-size: 20px;
+}
+
+#backUp {
+  display: flex;
+  justify-content: space-between;
+}
+.history,
+.agrandir {
+  padding: 5px;
+  border-radius: 25%;
+  background-color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
