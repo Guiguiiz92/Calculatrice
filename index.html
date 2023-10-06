@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalizer.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/9801a28f0f.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Calculatrice</title>
   </head>
   <body>
     <!--Changement de fond-->
     <div id="darkLight">
       <!--Bonton pour changer de fond (Clair ou foncer)-->
-      <i class="fa-solid fa-sun"></i>
-      <i class="fa-solid fa-moon"></i>
+      <button id="snk"><i class="fa-solid fa-sun"></i></button>
+      <button id="berserk"><i class="fa-solid fa-moon"></i></button>
     </div>
     <div id="leCalcul">
       <!-- Opé + resultat afficher-->
@@ -28,47 +29,52 @@
       <div id="backUp">
         <!-- 2 icones -->
 
-        <i class="fa-regular fa-clock history"></i>
-        <i class="fa-solid fa-up-right-and-down-left-from-center agrandir"></i>
+        <button id="history"><i class="fa-regular fa-clock"></i></button>
+        <button id="enlarge">
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </button>
       </div>
       <div id="listButton">
         <!-- Liste bouton -->
         <div class="line">
           <!-- Ligne 1 -->
-          <div class="button">C</div>
-          <div class="button">÷</div>
-          <div class="button">X</div>
-          <div class="button"><i class="fa-solid fa-delete-left"></i></div>
+          <button id="cancel">C</button>
+          <button id="split">÷</button>
+          <button id="multiplies">X</button>
+          <button id="delete">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
         </div>
         <div class="line">
           <!-- Ligne 2 -->
-          <div class="button">7</div>
-          <div class="button">8</div>
-          <div class="button">9</div>
-          <div class="button">()</div>
+          <button id="seven">7</button>
+          <button id="height">8</button>
+          <button id="nine">9</button>
+          <button id="parentheses">()</button>
         </div>
         <div class="line">
           <!-- Ligne 3 -->
-          <div class="button">4</div>
-          <div class="button">5</div>
-          <div class="button">6</div>
-          <div class="button">+</div>
+          <button id="four">4</button>
+          <button id="five">5</button>
+          <button id="six">6</button>
+          <button id="plus">+</button>
         </div>
         <div class="line">
           <!-- Ligne 4 -->
-          <div class="button">1</div>
-          <div class="button">2</div>
-          <div class="button">3</div>
-          <div class="button">-</div>
+          <button id="one">1</button>
+          <button id="two">2</button>
+          <button id="three">3</button>
+          <button id="minus">-</button>
         </div>
         <div class="line">
           <!-- Ligne 5 -->
-          <div class="button">%</div>
-          <div class="button">0</div>
-          <div class="button">,</div>
-          <div class="button">=</div>
+          <button id="pourcentage">%</button>
+          <button id="zero">0</button>
+          <button id="comma">,</button>
+          <button id="equal">=</button>
         </div>
       </div>
     </div>
   </body>
+  <script src="./script.js" type="text/javascript"></script>
 </html>

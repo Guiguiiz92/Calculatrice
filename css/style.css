@@ -17,16 +17,15 @@ body {
   gap: 10px;
 }
 
-.fa-sun,
-.fa-moon {
-  padding: 5px;
+#snk,
+#berserk {
   border-radius: 25%;
-  background-color: white;
   font-size: 30px;
 }
 
 #leCalcul {
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.6);
   height: 25%;
   display: flex;
@@ -45,14 +44,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.history,
-.agrandir {
-  padding: 5px;
-  border-radius: 25%;
-  background-color: white;
-  font-size: 30px;
-  margin-top: 10px;
-}
 
 #listButton {
   display: flex;
@@ -67,13 +58,27 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.button {
+button {
   text-align: center;
-  height: 55px;
-  width: 55px;
-  padding: 10px;
+  height: 70px;
+  width: 70px;
   border-radius: 25%;
   background-color: white;
   font-size: 50px;
-  opacity: 0.8;
+  opacity: 0.9;
+}
+
+#history,
+#enlarge,
+#snk,
+#berserk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25%;
+  background-color: white;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
 }
