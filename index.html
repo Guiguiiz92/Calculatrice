@@ -21,8 +21,8 @@
     </div>
     <div id="leCalcul">
       <!-- Opé + resultat afficher-->
-      <div id="operation">10+50+67-4</div>
-      <div id="resultat">456</div>
+      <div id="operation"></div>
+      <div id="resultat"></div>
     </div>
     <div>
       <!-- Toutes les touches  -->
@@ -38,10 +38,10 @@
         <!-- Liste bouton -->
         <div class="line">
           <!-- Ligne 1 -->
-          <button class="cancel">C</button>
+          <button value="C" class="cancel action">C</button>
           <button value="/" class="operation split">÷</button>
           <button value="*" class="operation multiplies">X</button>
-          <button class="delete">
+          <button value="del" class="delete action">
             <i class="fa-solid fa-delete-left"></i>
           </button>
         </div>
@@ -50,7 +50,7 @@
           <button value="7" class="number seven">7</button>
           <button value="8" class="number height">8</button>
           <button value="9" class="number nine">9</button>
-          <button class="other parentheses">()</button>
+          <button value="()" class="other parentheses">()</button>
         </div>
         <div class="line">
           <!-- Ligne 3 -->
@@ -68,10 +68,10 @@
         </div>
         <div class="line">
           <!-- Ligne 5 -->
-          <button class="other pourcentage">%</button>
+          <button value="%" class="other pourcentage">%</button>
           <button value="0" class="number zero">0</button>
-          <button class="other comma">,</button>
-          <button class="equal">=</button>
+          <button value="." class="other comma">,</button>
+          <button value="=" class="equal action">=</button>
         </div>
       </div>
     </div>
